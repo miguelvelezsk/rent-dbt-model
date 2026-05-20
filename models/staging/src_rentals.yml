@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: rental_medellin
+    database: portfolio-bigquery-dbt
+    schema: rental_medellin
+    tables:
+      - name: fincaraiz_raw_rentals
